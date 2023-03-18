@@ -1,7 +1,7 @@
 {
   "name": "website-backend",
   "version": "1.0.0",
-  "description": "Backend for TDA react website",
+  "description": "Backend for Fiverr Svelte Example website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-Developer-Academy-Development/website-backend.git"
+    "url": "git+https://github.com/BryanRam/Fiverr-Svelte-Example/backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/The-Developer-Academy-Development/website-backend/issues"
+    "url": "https://github.com/BryanRam/Fiverr-Svelte-Example/issues"
   },
-  "homepage": "https://github.com/The-Developer-Academy-Development/website-backend#readme",
+  "homepage": "https://github.com/BryanRam/Fiverr-Svelte-Example/backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
