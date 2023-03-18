@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/BryanRam/Fiverr-Svelte-Example/issues"
   },
-  "homepage": "https://github.com/BryanRam/Fiverr-Svelte-Example/backend#readme",
+  "homepage": "https://github.com/BryanRam/Fiverr-Svelte-Example#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
