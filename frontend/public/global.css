@@ -1,0 +1,103 @@
+/* Use the Google Roboto font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* Body and text colors */
+body {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Container for search box and button */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* Search box */
+#search-box {
+  background-color: #292929;
+  border: none;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  color: #f0f0f0;
+  font-size: 16px;
+  padding: 12px 16px;
+  outline: none;
+  width: 400px;
+}
+
+/* Search button */
+.search-button {
+  background-color: #007bff;
+  border: none;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  color: #f0f0f0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+.search-button:hover {
+  background-color: #0062cc;
+}
+
+.page-button{
+  background-color: #4CAF50;
+  border: none;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  color: #f0f0f0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+.page-button:hover{
+  background-color: #2a6a2c;
+}
+
+/* Search results table */
+#search-results {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#search-results th {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#search-results td {
+  background-color: #292929;
+  border-bottom: 1px solid #1c1c1c;
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8px 16px;
+}
+
+#search-results td:last-child {
+  border-right: none;
+}
+
+#search-results td:first-child {
+  border-left: none;
+}
+
+#search-results tr:last-child td {
+  border-bottom: none;
+}
